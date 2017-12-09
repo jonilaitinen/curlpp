@@ -62,7 +62,7 @@ namespace curlpp
 		* it will call the curl_easy_perform function will all the options
 		* previously set for this handle.
 		*/
-		void perform();
+		virtual void perform();
 
 		/**
 		* This function will set the option value of the OptionBase
